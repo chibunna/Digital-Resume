@@ -74,6 +74,10 @@ li{
     font-weight: 300;
 }
 
+.fa-envelope {
+    color: var(--mainLinkColor); 
+}
+
 #profile_picture {
     border-radius: 50%;
     width: 150px;
@@ -98,10 +102,30 @@ li{
     transition: 0.3s;
 }
 
-#socials--list a:hover {
-    color: var(--mainLinkColor);
+.fa-facebook:hover {
+    color: #4267B2;
 }
 
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-github:hover {
+    color: #171515;
+
+}
+
+.fa-get-pocket:hover {
+    color: #C0D7DB;
+}
+
+.fa-check {
+    color: green;
+}
 #qualifications--list {
     list-style: none;
 }
