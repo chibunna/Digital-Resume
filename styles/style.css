@@ -46,7 +46,7 @@ body{
     box-sizing: border-box;
     color: black;
 
-  }
+}
 
 #moon {
     display: flex;
@@ -200,6 +200,11 @@ li{
         flex-direction: column;
         gap: 1em ;
     }
+    #socials--list {
+        display: block;
+        line-height: 2.8em;
+    }
+
     #profile--picture {
         width: 200px;
         height: 200px;
