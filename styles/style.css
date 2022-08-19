@@ -22,16 +22,41 @@
 }
 
 
-*{
+/* *{
     font-family: 'Readex Pro';
     line-height: 1.5em;
     box-sizing: border-box;
     color: var(--mainTextColor);
     
-}
+} */
 
 body{
-    background-color: var(--mainBgColor);            
+    background-color: var(--mainBgColor);   
+    font-family: 'Readex Pro';
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: var(--mainTextColor);         
+}
+
+.dark-mode {
+    background-color: white; 
+    font-family: 'Readex Pro';
+    font-weight: 100;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: black;
+
+  }
+
+#moon {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+
+.fa-moon {
+    margin-left: auto;
 }
 
 p, span, li{
