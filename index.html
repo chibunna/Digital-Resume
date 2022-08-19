@@ -15,24 +15,28 @@
         <div id="moon" onclick="darkMode()">
             <i class="fa-solid fa-moon fa-2x"></i>
         </div>
-        
+
 
         <section id="wrapper--hero" class="section--page">
             <img id="profile_picture" src="./assets/images/profilePhoto.jpg">
             <div>
                 <h1 id="username">Chibunna Chukwudebelu</h1>
                 <p id="bio">Data analyst, developer at Framtid Solutions Ltd. Cybersecurity Engineer.</p>
-                <a href="mailto:jchukwudebelu@gmail.com"><i class="fa-solid fa-envelope"></i>  jchukwudebelu@gmail.com</a>
+                <a href="mailto:jchukwudebelu@gmail.com"><i class="fa-solid fa-envelope"></i>
+                    jchukwudebelu@gmail.com</a>
             </div>
         </section>
         <section class="section--page">
             <div id="socials--list">
                 <a href="#" target="_blank"><i class="fa-brands fa-facebook"> Facebook</i></a>
-                <a href="https://twitter.com/chibunnna" target="_blank"><i class="fa-brands fa-twitter"> Twitter</i> </a>
-                <a href="https://www.linkedin.com/in/chibunna/" target="_blank"><i class="fa-brands fa-linkedin"> Linkedin</i> </a>
+                <a href="https://twitter.com/chibunnna" target="_blank"><i class="fa-brands fa-twitter"> Twitter</i>
+                </a>
+                <a href="https://www.linkedin.com/in/chibunna/" target="_blank"><i class="fa-brands fa-linkedin">
+                        Linkedin</i> </a>
                 <a href="https://github.com/chibunna" target="_blank"><i class="fa-brands fa-github"> Github</i></a>
-                <a href="./assets/images/Chibunna.pdf" target="_blank"><i class="fa-brands fa-get-pocket"> Download Resume</i></a>
-                
+                <a href="./assets/images/Chibunna.pdf" target="_blank"><i class="fa-brands fa-get-pocket"> Download
+                        Resume</i></a>
+
             </div>
         </section>
 
@@ -78,18 +82,18 @@
             </div>
             <div class="line-break"></div>
 
-                <div class="card--work-history">
-                    <strong><i class="fa-solid fa-location-dot"></i> Digital Marketer | Freelance</strong>
-                    <p>2017 - Present</p>
-                    <p>Started a digital agency building websites and marketing for
-                        local businesses. Mostly Wordpress sites with small modifications to
-                        themes.</p>
-                    <ul>
-                        <li>Organized SEO & SEM campaigns on a local and global scale.</li>
-                        <li>Saved a customer $20k a year by reducing Adwords CPC cost with optimization</li>
-                        <li>30+ websites built with other developers and freelancers</li>
-                    </ul>
-                </div>
+            <div class="card--work-history">
+                <strong><i class="fa-solid fa-location-dot"></i> Digital Marketer | Freelance</strong>
+                <p>2017 - Present</p>
+                <p>Started a digital agency building websites and marketing for
+                    local businesses. Mostly Wordpress sites with small modifications to
+                    themes.</p>
+                <ul>
+                    <li>Organized SEO & SEM campaigns on a local and global scale.</li>
+                    <li>Saved a customer $20k a year by reducing Adwords CPC cost with optimization</li>
+                    <li>30+ websites built with other developers and freelancers</li>
+                </ul>
+            </div>
         </section>
 
         <section id="work--history--wrapper">
@@ -102,11 +106,11 @@
             </div>
             <div class="line-break"></div>
 
-                <div class="card--work-history">
-                    <strong><i class="fa-solid fa-graduation-cap"></i> MSc. Information Systems Management</strong><br>
-                    <p id="school"><i class="fa-solid fa-building-columns"></i> United States International University</p>
-                    <p>In Progress</p>
-                </div>
+            <div class="card--work-history">
+                <strong><i class="fa-solid fa-graduation-cap"></i> MSc. Information Systems Management</strong><br>
+                <p id="school"><i class="fa-solid fa-building-columns"></i> United States International University</p>
+                <p>In Progress</p>
+            </div>
         </section>
 
 
@@ -114,11 +118,13 @@
             <h2>Projects & Accomplishments</h2>
 
             <div class="card--project">
-                <a href="project1.html"><span>🏆 </span>Jukebox Application - A virtual simulation of a jukebox built with Java</a>
+                <a href="project1.html"><span>🏆 </span>Jukebox Application - A virtual simulation of a jukebox built
+                    with Java</a>
             </div>
 
             <div class="card--project">
-                <a href="https://www.solidaridadnetwork.org/region/west-africa/"><span>🏆 </span>Solidaridad West Africa website - Participated in the rebuilding of company website</a>
+                <a href="https://www.solidaridadnetwork.org/region/west-africa/"><span>🏆 </span>Solidaridad West Africa
+                    website - Participated in the rebuilding of company website</a>
             </div>
 
             <div class="card--project">
@@ -132,7 +138,13 @@
 
         </section>
     </div>
-    <script src="/app.js"></script>
+    <script>
+        function darkMode() {
+            var element = document.querySelector('.body');
+            element.classList.toggle("dark-mode");
+            console.log("Working")
+        }
+    </script>
 </body>
 
 </html>
